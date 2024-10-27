@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /donate.html  # Prevents donation page from being indexed
+Allow: /
+
+Sitemap: https://bee738.github.io/sitemap.xml
