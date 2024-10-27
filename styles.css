@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* About, Bio, and Donation Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff9800;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
